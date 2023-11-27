@@ -1,0 +1,25 @@
+{
+  "eventos": [
+    {
+      "id": 1,
+      "nome": "Evento A",
+      "data": "2023-12-01",
+      "descricao": "Descrição do evento A",
+      "status": "Ativo"
+    },
+    {
+      "nome": "",
+      "data": "",
+      "descricao": "",
+      "status": "",
+      "id": 2
+    },
+    {
+      "nome": "aa",
+      "data": "aa",
+      "descricao": "aa",
+      "status": "aa",
+      "id": 3
+    }
+  ]
+}
