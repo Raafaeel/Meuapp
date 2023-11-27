@@ -42,6 +42,7 @@ export const atualizarEvento = async (eventoAtualizado: Evento): Promise<Evento>
       return eventoAtualizado;
       
       
+      
     } else {
       throw new Error('Evento não encontrado');
     }

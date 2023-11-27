@@ -1,13 +1,14 @@
 import styles from './styles';
 import React, { useState } from 'react';
 import { View, TextInput, Button, StyleSheet } from 'react-native';
-import { atualizarEvento } from '../../../service/eventoService';
+import { atualizarEvento, fetchEventos } from '../../../service/eventoService';
 function EdicaoEvento({ route, navigation }) {
  const [evento, setEvento] = useState(route.params.evento);
  const salvarEdicoes = async () => {
  try {
  await atualizarEvento(evento);
  alert('Evento atualizado com sucesso!');
+ fetchEventos();
  navigation.goBack();
  } catch (error) {
  alert('Erro ao atualizar o evento.');

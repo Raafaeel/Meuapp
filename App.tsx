@@ -15,7 +15,7 @@ export default function App() {
     <NavigationContainer>
     <Stack.Navigator initialRouteName="Lista">
     <Stack.Screen name="Lista" component={ListaEventos}
-    options={{ title: 'Eventos' }} />
+    options={{ title: 'Eventos', headerShown: false }} />
     <Stack.Screen name="EdicaoEvento" component={EdicaoEvento}
     options={{ title: 'Editar Evento' }} />
      <Stack.Screen name="CriarEvento" component={CriarEvento}
