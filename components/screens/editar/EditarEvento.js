@@ -14,6 +14,7 @@ function EdicaoEvento({ route, navigation }) {
  console.error("Erro ao atualizar evento:", error);
  }
  };
+ 
  return (
     <View style={styles.container}>
     <TextInput
